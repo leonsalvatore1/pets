@@ -1,0 +1,26 @@
+
+
+.about-hero{
+   background-image: url(images/hero/aboutus.jpg);
+   background-size: cover;
+   color: white;
+   width: 100%;
+}
+
+.about-heading{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 2rem 0;
+}
+
+@media (min-width:768px) {
+
+    .about-heading{
+        padding: 7rem 0;
+    }
+
+    .about-heading h3{
+        font-size: 4rem;
+    }
+}

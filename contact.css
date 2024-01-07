@@ -1,0 +1,68 @@
+:root {
+    --primary: #7AB730;
+    --secondary: #FFD33C;
+    --light: #F3F3F3;
+    --dark: #212121;
+}
+
+.contact-hero{
+    background-image: url(images/hero/contact-hero.jpg);
+    background-size: cover;
+    color: white;
+    width: 100%;
+}
+
+.contact-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+ }
+ 
+ @media (min-width:768px) {
+ 
+     .contact-heading{
+         padding: 7rem 0;
+     }
+ 
+     .contact-heading h3{
+         font-size: 4rem;
+     }
+ }
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    border-radius: 50%;
+}
+
+
+h1{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.contact span i{
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+.contact .phone p{
+     margin-top: -.5rem;
+}
+
+@media (min-width:768px) {
+    .contact{
+        padding: 2rem 8rem;
+       flex-direction: row;
+       justify-content: space-between;
+    }
+
+    .contact span i{
+        font-size: 4rem;
+    }
+}
